@@ -18,6 +18,7 @@
 		96ABDB602BF32AA10073B636 /* InstakilogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABDB5F2BF32AA10073B636 /* InstakilogramUITests.swift */; };
 		96ABDB622BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABDB612BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift */; };
 		96EECA1C2BF725B100B1C57A /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EECA1B2BF725B100B1C57A /* title.png */; };
+		96F96F732BFB19A900ED9A90 /* img_logo_google@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F96F722BFB19A900ED9A90 /* img_logo_google@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		96ABDB5F2BF32AA10073B636 /* InstakilogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstakilogramUITests.swift; sourceTree = "<group>"; };
 		96ABDB612BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstakilogramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96EECA1B2BF725B100B1C57A /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		96F96F722BFB19A900ED9A90 /* img_logo_google@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_logo_google@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		96EECA1A2BF725A500B1C57A /* res */ = {
 			isa = PBXGroup;
 			children = (
+				96F96F722BFB19A900ED9A90 /* img_logo_google@3x.png */,
 				96EECA1B2BF725B100B1C57A /* title.png */,
 			);
 			path = res;
@@ -250,6 +253,7 @@
 				96ABDB4B2BF32AA10073B636 /* Base in Resources */,
 				962182BC2BFB09CA00C9100A /* Login.storyboard in Resources */,
 				968E39542BFAF4B4000D8EB8 /* Main.storyboard in Resources */,
+				96F96F732BFB19A900ED9A90 /* img_logo_google@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

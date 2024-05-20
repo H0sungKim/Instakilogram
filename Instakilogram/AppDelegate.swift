@@ -1,36 +1,52 @@
 //
 //  AppDelegate.swift
-//  Instakilogram
+//  JapaneseBenkyo
 //
-//  Created by 김호성 on 2024.05.14.
+//  Created by 김호성 on 2/12/24.
 //
 
 import UIKit
+import AVFoundation
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelegate {
 
-
+    var window: UIWindow?
+    var navigationController: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // For splash launchscreen.
+        sleep(1)
+        
+        let screen = UIScreen.main
+        let bounds = screen.bounds
+        
+        self.window = UIWindow(frame: bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.white
+            
+            let storyboard = UIStoryboard(name: "Login", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            
+            navigationController = UINavigationController.init(rootViewController:viewController)
+            navigationController?.setNavigationBarHidden(true, animated: false)
+            navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+            navigationController?.interactivePopGestureRecognizer?.delegate = self
+            window.rootViewController = navigationController
+            window.makeKeyAndVisible()
+            
+        }
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+    // Hold the screen vertically.
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .portrait
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    
+    // Prevent the rootviewcontroller from being popped.
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        return navigationController?.viewControllers.count ?? 0 > 1
     }
-
-
 }
-

@@ -1,0 +1,6 @@
+framework module Pods_Instakilogram {
+  umbrella header "Pods-Instakilogram-umbrella.h"
+
+  export *
+  module * { export * }
+}

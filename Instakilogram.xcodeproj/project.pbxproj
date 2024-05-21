@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0729356B157088F6970D7739 /* Pods_Instakilogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198B304E5693DB801F13EC9B /* Pods_Instakilogram.framework */; };
 		962182B82BFAFBF300C9100A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962182B72BFAFBF300C9100A /* MainViewController.swift */; };
 		962182BA2BFB093800C9100A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962182B92BFB093800C9100A /* LoginViewController.swift */; };
 		962182BC2BFB09CA00C9100A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962182BB2BFB09CA00C9100A /* Login.storyboard */; };
@@ -19,6 +20,8 @@
 		96ABDB622BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABDB612BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift */; };
 		96EECA1C2BF725B100B1C57A /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EECA1B2BF725B100B1C57A /* title.png */; };
 		96F96F732BFB19A900ED9A90 /* img_logo_google@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F96F722BFB19A900ED9A90 /* img_logo_google@3x.png */; };
+		E1CFEF0829504BE89E44A8A7 /* Pods_InstakilogramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DED6B07DB5BBBBFBAC391E /* Pods_InstakilogramTests.framework */; };
+		FE19C1D2A4203A0FD18FB98B /* Pods_Instakilogram_InstakilogramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD8BC4C80B06C320979780 /* Pods_Instakilogram_InstakilogramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0823C6FCE58BA88199787450 /* Pods-Instakilogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instakilogram.release.xcconfig"; path = "Target Support Files/Pods-Instakilogram/Pods-Instakilogram.release.xcconfig"; sourceTree = "<group>"; };
+		198B304E5693DB801F13EC9B /* Pods_Instakilogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instakilogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26794B9887E8EF1004D464B1 /* Pods-InstakilogramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstakilogramTests.debug.xcconfig"; path = "Target Support Files/Pods-InstakilogramTests/Pods-InstakilogramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E172D95F24BFDE91F2645E /* Pods-Instakilogram-InstakilogramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instakilogram-InstakilogramUITests.release.xcconfig"; path = "Target Support Files/Pods-Instakilogram-InstakilogramUITests/Pods-Instakilogram-InstakilogramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36CD8BC4C80B06C320979780 /* Pods_Instakilogram_InstakilogramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instakilogram_InstakilogramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		962182B72BFAFBF300C9100A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		962182B92BFB093800C9100A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		962182BB2BFB09CA00C9100A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -55,6 +63,10 @@
 		96ABDB612BF32AA10073B636 /* InstakilogramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstakilogramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96EECA1B2BF725B100B1C57A /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		96F96F722BFB19A900ED9A90 /* img_logo_google@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_logo_google@3x.png"; sourceTree = "<group>"; };
+		A93C2ADA8DB82F56F82A7A39 /* Pods-Instakilogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instakilogram.debug.xcconfig"; path = "Target Support Files/Pods-Instakilogram/Pods-Instakilogram.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7A1C089840346BFD2E57A5 /* Pods-Instakilogram-InstakilogramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instakilogram-InstakilogramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instakilogram-InstakilogramUITests/Pods-Instakilogram-InstakilogramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D4669B080330BE795EA877 /* Pods-InstakilogramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstakilogramTests.release.xcconfig"; path = "Target Support Files/Pods-InstakilogramTests/Pods-InstakilogramTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4DED6B07DB5BBBBFBAC391E /* Pods_InstakilogramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstakilogramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0729356B157088F6970D7739 /* Pods_Instakilogram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CFEF0829504BE89E44A8A7 /* Pods_InstakilogramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE19C1D2A4203A0FD18FB98B /* Pods_Instakilogram_InstakilogramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				96ABDB542BF32AA10073B636 /* InstakilogramTests */,
 				96ABDB5E2BF32AA10073B636 /* InstakilogramUITests */,
 				96ABDB3C2BF32A930073B636 /* Products */,
+				C2114626D173488907EA67FF /* Pods */,
+				99CFFC77B216D8C74DF521A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +161,29 @@
 			path = res;
 			sourceTree = "<group>";
 		};
+		99CFFC77B216D8C74DF521A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198B304E5693DB801F13EC9B /* Pods_Instakilogram.framework */,
+				36CD8BC4C80B06C320979780 /* Pods_Instakilogram_InstakilogramUITests.framework */,
+				D4DED6B07DB5BBBBFBAC391E /* Pods_InstakilogramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2114626D173488907EA67FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93C2ADA8DB82F56F82A7A39 /* Pods-Instakilogram.debug.xcconfig */,
+				0823C6FCE58BA88199787450 /* Pods-Instakilogram.release.xcconfig */,
+				BA7A1C089840346BFD2E57A5 /* Pods-Instakilogram-InstakilogramUITests.debug.xcconfig */,
+				28E172D95F24BFDE91F2645E /* Pods-Instakilogram-InstakilogramUITests.release.xcconfig */,
+				26794B9887E8EF1004D464B1 /* Pods-InstakilogramTests.debug.xcconfig */,
+				C1D4669B080330BE795EA877 /* Pods-InstakilogramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ABDB652BF32AA10073B636 /* Build configuration list for PBXNativeTarget "Instakilogram" */;
 			buildPhases = (
+				BBB39D19D8C0969E9DDF8B98 /* [CP] Check Pods Manifest.lock */,
 				96ABDB372BF32A930073B636 /* Sources */,
 				96ABDB382BF32A930073B636 /* Frameworks */,
 				96ABDB392BF32A930073B636 /* Resources */,
+				89F6BF6565026975C7434614 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ABDB682BF32AA10073B636 /* Build configuration list for PBXNativeTarget "InstakilogramTests" */;
 			buildPhases = (
+				8B3E34228E955DB385061616 /* [CP] Check Pods Manifest.lock */,
 				96ABDB4D2BF32AA10073B636 /* Sources */,
 				96ABDB4E2BF32AA10073B636 /* Frameworks */,
 				96ABDB4F2BF32AA10073B636 /* Resources */,
@@ -186,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ABDB6B2BF32AA10073B636 /* Build configuration list for PBXNativeTarget "InstakilogramUITests" */;
 			buildPhases = (
+				C90E650925615A6A9A316BD8 /* [CP] Check Pods Manifest.lock */,
 				96ABDB572BF32AA10073B636 /* Sources */,
 				96ABDB582BF32AA10073B636 /* Frameworks */,
 				96ABDB592BF32AA10073B636 /* Resources */,
+				BC2BBA0DFA90A13C6D95DF75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +317,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89F6BF6565026975C7434614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instakilogram/Pods-Instakilogram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instakilogram/Pods-Instakilogram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instakilogram/Pods-Instakilogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3E34228E955DB385061616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstakilogramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB39D19D8C0969E9DDF8B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instakilogram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2BBA0DFA90A13C6D95DF75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instakilogram-InstakilogramUITests/Pods-Instakilogram-InstakilogramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instakilogram-InstakilogramUITests/Pods-Instakilogram-InstakilogramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instakilogram-InstakilogramUITests/Pods-Instakilogram-InstakilogramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90E650925615A6A9A316BD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instakilogram-InstakilogramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96ABDB372BF32A930073B636 /* Sources */ = {
@@ -449,12 +597,14 @@
 		};
 		96ABDB662BF32AA10073B636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93C2ADA8DB82F56F82A7A39 /* Pods-Instakilogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G4QV27Y5P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instakilogram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,12 +626,14 @@
 		};
 		96ABDB672BF32AA10073B636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0823C6FCE58BA88199787450 /* Pods-Instakilogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G4QV27Y5P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instakilogram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -503,6 +655,7 @@
 		};
 		96ABDB692BF32AA10073B636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26794B9887E8EF1004D464B1 /* Pods-InstakilogramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +676,7 @@
 		};
 		96ABDB6A2BF32AA10073B636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D4669B080330BE795EA877 /* Pods-InstakilogramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +697,7 @@
 		};
 		96ABDB6C2BF32AA10073B636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7A1C089840346BFD2E57A5 /* Pods-Instakilogram-InstakilogramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +716,7 @@
 		};
 		96ABDB6D2BF32AA10073B636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E172D95F24BFDE91F2645E /* Pods-Instakilogram-InstakilogramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

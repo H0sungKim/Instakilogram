@@ -9,6 +9,7 @@ target 'Instakilogram' do
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
   pod 'Alamofire'
+  pod 'SnapKit'
 
   target 'InstakilogramTests' do
     inherit! :search_paths

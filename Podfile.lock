@@ -50,11 +50,13 @@ PODS:
   - GTMSessionFetcher/Core (3.2.0)
   - PromisesObjC (2.3.1)
   - RecaptchaInterop (100.0.0)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - Firebase/Auth
   - GoogleSignIn
+  - SnapKit
 
 SPEC REPOS:
   trunk:
@@ -71,6 +73,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - PromisesObjC
     - RecaptchaInterop
+    - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
@@ -86,7 +89,8 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 41b9ef0b4c08a6db4b7eb51a21ae5183ec99a2c8
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 6cab868c9d6fc76d33a383362edbb616d97079a0
+PODFILE CHECKSUM: cb241a4a6b459de9a10fd85843248421f6851ac2
 
 COCOAPODS: 1.14.3

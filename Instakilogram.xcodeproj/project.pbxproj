@@ -15,6 +15,7 @@
 		96312D2E2BFC713600617163 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96312D2D2BFC713600617163 /* MainViewController.swift */; };
 		968E39542BFAF4B4000D8EB8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E39532BFAF4B4000D8EB8 /* Home.storyboard */; };
 		969604B32C00251800BBFC6C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969604B22C00251800BBFC6C /* CustomTextField.swift */; };
+		969604B52C004E5700BBFC6C /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969604B42C004E5700BBFC6C /* UIViewController+Ext.swift */; };
 		96ABDB3F2BF32A930073B636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABDB3E2BF32A930073B636 /* AppDelegate.swift */; };
 		96ABDB482BF32AA10073B636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ABDB472BF32AA10073B636 /* Assets.xcassets */; };
 		96ABDB4B2BF32AA10073B636 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 96ABDB4A2BF32AA10073B636 /* Base */; };
@@ -57,6 +58,7 @@
 		96312D2D2BFC713600617163 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		968E39532BFAF4B4000D8EB8 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		969604B22C00251800BBFC6C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		969604B42C004E5700BBFC6C /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		96ABDB3B2BF32A930073B636 /* Instakilogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instakilogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ABDB3E2BF32A930073B636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96ABDB472BF32AA10073B636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				96ABDB5E2BF32AA10073B636 /* InstakilogramUITests */,
 				96ABDB3C2BF32A930073B636 /* Products */,
 				C2114626D173488907EA67FF /* Pods */,
-				99CFFC77B216D8C74DF521A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +141,8 @@
 				96312D2B2BFC712A00617163 /* Main.storyboard */,
 				96312D2D2BFC713600617163 /* MainViewController.swift */,
 				969604B22C00251800BBFC6C /* CustomTextField.swift */,
+				969604B42C004E5700BBFC6C /* UIViewController+Ext.swift */,
+				99CFFC77B216D8C74DF521A1 /* Frameworks */,
 			);
 			path = Instakilogram;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				D4DED6B07DB5BBBBFBAC391E /* Pods_InstakilogramTests.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C2114626D173488907EA67FF /* Pods */ = {
@@ -438,6 +442,7 @@
 			files = (
 				962182BA2BFB093800C9100A /* LoginViewController.swift in Sources */,
 				969604B32C00251800BBFC6C /* CustomTextField.swift in Sources */,
+				969604B52C004E5700BBFC6C /* UIViewController+Ext.swift in Sources */,
 				96ABDB3F2BF32A930073B636 /* AppDelegate.swift in Sources */,
 				962182B82BFAFBF300C9100A /* HomeViewController.swift in Sources */,
 				96312D2E2BFC713600617163 /* MainViewController.swift in Sources */,

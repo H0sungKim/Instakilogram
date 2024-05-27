@@ -39,26 +39,23 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onClickBasicLogin(_ sender: Any) {
-        
+        let vc = UIViewController.getViewController(viewControllerEnum: .main) as! MainViewController
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     
 }
 
 extension LoginViewController: UITextFieldDelegate {
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        let customTextfield: CustomTextField = textField as! CustomTextField
         if textField.text == "" {
-            let customTextfield: CustomTextField = textField as! CustomTextField
-            UIView.animate(withDuration: 0.3) {
-                customTextfield.setPlaceHolderSmall()
-            }
-        }
-    }
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if textField.text == "" {
-            let customTextfield: CustomTextField = textField as! CustomTextField
             UIView.animate(withDuration: 0.3) {
                 customTextfield.setPlaceHolderBig()
+            }
+        } else {
+            UIView.animate(withDuration: 0.3) {
+                customTextfield.setPlaceHolderSmall()
             }
         }
     }

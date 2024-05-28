@@ -32,7 +32,7 @@
                                         <rect key="frame" x="0.0" y="151.00000000000003" width="265" height="34"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONI-Mv-b0E">
                                         <rect key="frame" x="0.0" y="201.00000000000003" width="265" height="35"/>
@@ -117,6 +117,9 @@
                                         <color key="textColor" systemColor="placeholderTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="3Yo-KQ-p4P">
+                                        <rect key="frame" x="122.66666666666666" y="208.66666666666666" width="20" height="20"/>
+                                    </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -141,8 +144,10 @@
                                     <constraint firstItem="UiQ-Ee-JiU" firstAttribute="centerX" secondItem="k98-0x-rso" secondAttribute="centerX" id="gAb-vM-7YZ"/>
                                     <constraint firstItem="OfN-h6-EfG" firstAttribute="top" secondItem="ONI-Mv-b0E" secondAttribute="bottom" constant="32" id="gdf-du-fWX"/>
                                     <constraint firstAttribute="trailing" secondItem="UiQ-Ee-JiU" secondAttribute="trailing" id="hRq-Ee-hMJ"/>
+                                    <constraint firstItem="3Yo-KQ-p4P" firstAttribute="centerY" secondItem="ONI-Mv-b0E" secondAttribute="centerY" id="ks7-OM-aOG"/>
                                     <constraint firstAttribute="trailing" secondItem="ONI-Mv-b0E" secondAttribute="trailing" id="lO3-U2-VsT"/>
                                     <constraint firstAttribute="trailing" secondItem="sUO-RU-rtt" secondAttribute="trailing" id="lkT-1W-ypt"/>
+                                    <constraint firstItem="3Yo-KQ-p4P" firstAttribute="centerX" secondItem="ONI-Mv-b0E" secondAttribute="centerX" id="lvT-a8-9Wm"/>
                                     <constraint firstItem="EZ5-lo-Tm2" firstAttribute="centerX" secondItem="k98-0x-rso" secondAttribute="centerX" id="moo-Cm-D5o"/>
                                     <constraint firstItem="ONI-Mv-b0E" firstAttribute="leading" secondItem="k98-0x-rso" secondAttribute="leading" id="qog-lj-x1X"/>
                                     <constraint firstItem="OfN-h6-EfG" firstAttribute="leading" secondItem="k98-0x-rso" secondAttribute="leading" id="zla-T5-1RL"/>
@@ -159,6 +164,7 @@
                     </view>
                     <connections>
                         <outlet property="googleLoginButton" destination="UiQ-Ee-JiU" id="g1y-dK-Keu"/>
+                        <outlet property="idcLoginBtn" destination="3Yo-KQ-p4P" id="dzr-Jd-OCe"/>
                         <outlet property="lbIDPlaceHolder" destination="EJB-1Q-N6v" id="wlj-wU-6Se"/>
                         <outlet property="lbPasswordPlaceHolder" destination="EJi-h6-WML" id="i42-GQ-9In"/>
                         <outlet property="tfID" destination="sUO-RU-rtt" id="QIv-wu-M8O"/>

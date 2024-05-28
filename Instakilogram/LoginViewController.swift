@@ -16,6 +16,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tfPassword: CustomTextField!
     @IBOutlet weak var lbPasswordPlaceHolder: UILabel!
     
+    @IBOutlet weak var idcLoginBtn: UIActivityIndicatorView!
+    
     @IBOutlet weak var googleLoginButton: UIButton!
     
     override func viewDidLoad() {
@@ -32,13 +34,18 @@ class LoginViewController: UIViewController {
         googleLoginButton.layer.cornerRadius = 10
         googleLoginButton.layer.borderColor = UIColor.systemGray5.cgColor
         
+        self.hideKeyboardWhenTappedAround()
+        
     }
     
     @IBAction func onClickGoogleLogin(_ sender: Any) {
         NSLog("Google Login")
     }
     
-    @IBAction func onClickBasicLogin(_ sender: Any) {
+    @IBAction func onClickBasicLogin(_ sender: UIButton) {
+        sender.setTitleColor(.clear, for: .normal)
+        idcLoginBtn.startAnimating()
+        
         let vc = UIViewController.getViewController(viewControllerEnum: .main) as! MainViewController
         navigationController?.pushViewController(vc, animated: true)
     }
@@ -59,4 +66,19 @@ extension LoginViewController: UITextFieldDelegate {
             }
         }
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == tfID {
+            tfPassword.becomeFirstResponder()
+        } else {
+            tfPassword.resignFirstResponder()
+        }
+        return true
+    }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if let text = textField.text {
+            let endPosition = textField.endOfDocument
+            textField.selectedTextRange = textField.textRange(from: endPosition, to: endPosition)
+        }
+    }
 }
+

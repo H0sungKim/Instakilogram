@@ -22,6 +22,8 @@ class CustomTextField: UITextField {
     }
     
     func initialize(placeHolder: UILabel) {
+        self.autocorrectionType = .no
+        self.spellCheckingType = .no
         lbPlaceHolder = placeHolder
         addSubview(lbPlaceHolder)
         lbPlaceHolder.snp.makeConstraints {
